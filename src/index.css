@@ -1,0 +1,23 @@
+:root {
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  /* --dark-color:#2F3241; */
+  --dark-color:#333333;
+  --dark-color-soft: #33333340;
+  --dark-color-hyper-soft:#33333310;
+  --hightlight-color:pink;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 380px;
+  min-height: 100vh;
+  color: var(--dark-color);
+}
+
+
+
