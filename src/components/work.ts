@@ -107,6 +107,11 @@ export class MyWork extends LitElement {
         padding-bottom:0.3rem;
         font-weight:500;
       }
+      @media all and (max-width:765px){
+        .work-list{
+          margin-bottom:3rem;
+        }
+      }
      
       
     `

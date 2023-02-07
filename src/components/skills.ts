@@ -63,7 +63,12 @@ export class MySkills extends LitElement {
             justify-content:center;
         }
         .skill-list{
-            margin:2rem 2rem;
+            margin:2rem ;
+        }
+        @media all and (max-width:980px){
+          .skill-list{
+            margin:2rem 0;
+          }
         }
         .skills-sublist{
           width:50%;
@@ -72,6 +77,26 @@ export class MySkills extends LitElement {
           font-size:1.125rem;
           text-align:left;
         }
+        @media all and (max-width:480px){
+          .skill-list{
+            display:block;
+    
+          }
+          .skills-sublist{
+            width:100%;
+            padding-top:1.2rem;
+          }
+          .skills-sublist h3{
+            text-align:center;
+          }
+          .skills-sublist ul{
+            text-align:center;
+            list-style-type:none;
+            padding-inline-start:0rem;
+          }
+
+        }
+       
 
     `
   ]

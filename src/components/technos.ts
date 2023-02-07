@@ -47,7 +47,7 @@ export class MyTechnos extends LitElement {
 
     return html`
       <div class="techno-list">
-          <ul class="liststylenone displayflex center">
+          <ul class="liststylenone displayflex displaywrap center">
           ${map(this.technoMap, (tech)=> html`<li class="logo-tech"><img src=${tech.image} alt="${tech.name} logo" width=${this.withLogo} height=${this.withLogo} /></li>`)}
         </ul>
       </div>
@@ -63,9 +63,6 @@ export class MyTechnos extends LitElement {
     typoStyles,
     titleBarStyles,
     css`
-      .displayflex {
-        display:flex;
-      }
       .center{
         justify-content:space-around;
       }
@@ -73,7 +70,24 @@ export class MyTechnos extends LitElement {
         margin:0.2rem;
       }
       .techno-list{
-        margin: 0 2rem;
+        margin: 0;
+      }
+      .displaywrap{
+        flex-wrap:nowrap;
+      }
+      @media all and (max-width:1300px){
+        .center{
+          justify-content:center;
+        }
+        .displaywrap {
+          flex-wrap:wrap;
+        }
+        
+      }
+      @media all and (max-width:480px){
+        .techno-list{
+          padding-top: 1rem;
+        }
       }
     `
   ]

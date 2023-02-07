@@ -37,7 +37,7 @@ export class MyHeader extends LitElement {
   ]
   imageurl:string = this.getImageUrl();
   imagedisplay:string = 'block';
-  width:string = '22px';
+  width:string = '20px';
 
 
   render() {
@@ -54,9 +54,9 @@ export class MyHeader extends LitElement {
       <div>
         <img src=${this.imageurl} alt="photo ${this.resume.basics.name}" class="avatar ${this.imagedisplay}">
         <h1 class="header-name">${this.resume.basics.name}</h1>
-        <div class="title-bar">
+        <div class="title-bar header-title">
           <h2>${this.resume.basics.headline}</h2>
-          <div class="icon-links">
+          <div class="icon-links displayflex">
             <ul class=liststylenone>
               <li class="icon-link-item"><a href="tel:${this.contactphone}" ><img src=${phone} alt="${this.contactphone}" width="${this.width}" height="${this.width}" /></a></li>
               <li class="icon-link-item"><a href="mailto:${this.contactemail}" ><img src=${email} alt="${this.contactemail}" width="${this.width}" height="${this.width}" /></a></li>
@@ -70,7 +70,7 @@ export class MyHeader extends LitElement {
           </div>
         </div>
         <div class="header-summary">
-          <strong>Objectif : 
+          <strong>Objectif : 
           ${this.resume.basics.objectives}</strong>
         </div>
         <div class="header-summary">
@@ -110,9 +110,13 @@ export class MyHeader extends LitElement {
         text-align: center;
         margin: 1rem 0 0;
       }
-      
+      @media all and (max-width:765px){
+        .header-title {
+          padding:1rem 0;
+        }
+      }
       .avatar {
-        width: 95px;
+        width: 5.9rem;
         max-width: 100%;
         overflow: hidden;
         margin: 0 auto;
@@ -124,7 +128,12 @@ export class MyHeader extends LitElement {
         margin: 0;
         padding-top: .8rem;
         padding-left: .4rem;
-        display:flex;
+      }
+      @media all and (max-width:765px){
+        .icon-links{
+          display:inline-flex;
+          padding-left: 0rem;
+        }
       }
       
       .icon-link-item {

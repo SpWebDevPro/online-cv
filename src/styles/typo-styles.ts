@@ -4,7 +4,7 @@ export const typoStyles = css`
 
 
   h1 {
-    font-size: 2 rem;
+    font-size: 2rem;
     line-height: 1.2;
     letter-spacing: -.04rem;
   }
@@ -32,21 +32,23 @@ export const typoStyles = css`
     font-weight:600;
   }
 
+
   .liststylenone {
     list-style:none;
-    padding-inline-start: 0px;
+    padding-inline-start: 0rem;
     margin:0;
   }
 
   .liststylearrow {
     text-align:left;
-    padding-inline-start: 20px;
+    padding-inline-start: 1.25rem;
   }
 
   .liststylearrow li:before{
     margin-right:0.5rem;
     left:0;
   }
+
 
   .separator-before::before{
     content:"- ";
@@ -55,11 +57,18 @@ export const typoStyles = css`
   .space-before::before{
     content:"\u00a0";
   }
+
+  .displayflex {
+    display:flex;
+  }
+  
   .inline {
     display:inline-flex;
   }
+
+
   .bottom-space-10 {
-    padding-bottom:10px;
+    padding-bottom:0.625;
   }
 
 

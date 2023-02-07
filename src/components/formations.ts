@@ -2,7 +2,6 @@ import { LitElement, css, html } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { map } from 'lit/directives/map.js';
 
-import { buttonStyles } from '../styles/button-styles';
 import { typoStyles } from '../styles/typo-styles';
 import { titleBarStyles } from '../styles/title-bar-styles';
 
@@ -16,7 +15,7 @@ export class MyTraining extends LitElement {
   education = res[0].sections.education.items;
   formations = res[0].sections.certifications.items;
   title = res[0].sections.education.name;
-  idEl = document.getElementById('toto');
+ 
   
   
   render() {
@@ -27,19 +26,18 @@ export class MyTraining extends LitElement {
         </div>
         <div class="formation-container">
         <ul class="liststylenone formations-list">
-            ${map(this.formations, ((fm, index)=> html`
+            ${map(this.formations, ((fm)=> html`
                 <li class="resume-item">
                         <h3 >${fm.issuer}</h3>
-                        <h4 >${fm.name} &bull; <span class="formation-date">${this.formatDate(fm.date.start, index.toString())}</span><span id="toto"> - </span><span class="formation-date">${this.formatDate(fm.date.end, index.toString())}</span></h4>
+                        <h4 >${fm.name} &bull; <span class="formation-date">${this.formatDate(fm.date.start)}</span><span id="tiret"> - </span><span class="formation-date">${this.formatDate(fm.date.end)}</span></h4>
                 </li>`
                 ))}
           </ul>
           <ul class="liststylenone formations-list">
-            ${map(this.education, ((ed, index) => html`
+            ${map(this.education, ((ed) => html`
                 <li class="resume-item">
                         <h3 >${ed.institution}</h3>
-                        <h4 >${ed.degree} &bull; <span class="formation-date">${this.formatDate(ed.date.start, index.toString())}</span><span id="${index.toString()}"> - </span> <span class="formation-date">${this.formatDate(ed.date.end, index.toString())}</span></h4>
-        
+                        <h4 >${ed.degree} &bull; <span class="formation-date">${this.formatDate(ed.date.start)}</span><span class="formation-date"> - ${this.formatDate(ed.date.end)}</span></h4>
                 </li>`
                 ))}
           </ul>
@@ -49,8 +47,7 @@ export class MyTraining extends LitElement {
     `
   }
 
-  private formatDate(date:string, id:string){
-    console.log('id string quoi quil arrive ', id );
+  private formatDate(date:string){
     if (date !== "Aujourd'hui" && date !== ''){
       let formatedDate = new Date(date);
       return formatedDate.getFullYear();
@@ -58,11 +55,6 @@ export class MyTraining extends LitElement {
       return " - Aujourd'hui";
     }
     else {
-      if (this.idEl){
-        this.idEl.style.display = 'none';
-      }
-      
-      
       return "";
     }
   }
@@ -70,7 +62,7 @@ export class MyTraining extends LitElement {
  
 
   static styles = [
-    buttonStyles,
+
     typoStyles,
     titleBarStyles,
     css`
@@ -93,7 +85,16 @@ export class MyTraining extends LitElement {
       .formation-date {
         font-weight:400;
       }
-      #toto{
+      @media all and (max-width:765px){
+        .formation-container{
+          margin-top:2rem;
+          grid-template-columns: 100%;
+        }
+        .formations-list{
+          margin:0rem 0;
+        }
+      }
+      #tiret{
         display:none;
       }
       

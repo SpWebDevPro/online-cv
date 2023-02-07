@@ -2,7 +2,7 @@ import { css } from 'lit';
 
 export const buttonStyles = css`
     button {
-        border-radius: 4px;
+        border-radius: 0.25rem;
         border: none;
         padding: 0.6rem 1.2rem;
         font-size: 1rem;
@@ -18,6 +18,6 @@ export const buttonStyles = css`
     }
     button:focus,
     button:focus-visible {
-        outline: 4px auto -webkit-focus-ring-color;
+        outline: 0.25rem auto -webkit-focus-ring-color;
     }
 `

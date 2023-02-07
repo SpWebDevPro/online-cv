@@ -10,13 +10,19 @@
   --hightlight-color:pink;
 }
 
+@media all and (max-width:765px){
+  :root {
+    font-size:0.85rem;
+  }
+}
+
 body {
-  margin: 0;
   display: flex;
+  justify-content: center;
   place-items: center;
-  min-width: 380px;
   min-height: 100vh;
   color: var(--dark-color);
+  overflow-x: hidden;
 }
 
 

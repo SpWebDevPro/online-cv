@@ -17,6 +17,7 @@ export class languageInterests extends LitElement {
   
   languages = res[0].sections.languages;
   interests = res[0].sections.interests;
+  volunteer = res[0].sections.volunteer
   
   
   render() {
@@ -40,7 +41,7 @@ export class languageInterests extends LitElement {
                     </ul>
                 </div>
                 <div class="displayflex">
-                    <h4>${this.interests.name} :<span> </span></h4>
+                    <h4>${this.interests.name} :</h4>
                     <ul class="liststylenone">
                         ${map(this.interests.items, (item)=> html`
                         <li class="lang-item">
@@ -48,6 +49,16 @@ export class languageInterests extends LitElement {
                                 () => html`<p class="space-before"> ${item.name}</p>`,
                                 () => html`<p class="separator-before">${item.name}</p>`,
                               )}
+                            </li>`
+                            )}
+                    </ul>
+                </div>
+                <div class="displayblock left">
+                    <h4>${this.volunteer.name} :</h4>
+                    <ul class="liststylenone">
+                        ${map(this.volunteer.items, (item)=> html`
+                        <li class="displayflex">
+                            - ${item.summary}
                             </li>`
                             )}
                     </ul>
@@ -76,6 +87,7 @@ export class languageInterests extends LitElement {
         }
         .content-lang-int{
           padding-top:1.5rem;
+          padding-bottom:1.5rem;
         }
         .lang-item { 
             padding-top:0rem;
@@ -88,6 +100,16 @@ export class languageInterests extends LitElement {
         }
         .lang-content{
             margin:2rem 0;
+        }
+        .left{
+          text-align:left;
+        }
+        @media all and (max-width:765px){
+          .displayflex {
+            display:block;
+            text-align:left;
+            padding-bottom:1.2rem;
+        }
         }
       
       

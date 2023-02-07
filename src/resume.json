@@ -14,7 +14,7 @@
             "visible": true
         },
         "objectives": "Intégrer une équipe dev Angular dans le cadre d'une mission longue durée",
-        "summary": "Reconvertie dans le développement web à 42 ans, j'ai déjà un riche parcours professionnel et entrepreneurial. Ce qui m'anime ? Concevoir, développer et améliorer un produit, en intégrant aussi bien les enjeux business que les attentes de l’utilisateur. Et si je peux le faire en équipe et apprendre en même temps, c'est mieux !",
+        "summary": "Reconvertie dans le développement web à 42 ans, j'ai déjà un riche parcours professionnel et entrepreneurial. Ce qui m'anime ? Concevoir, développer et améliorer un produit, en intégrant aussi bien les enjeux business que les attentes de l’utilisateur. Et si je peux le faire en équipe et apprendre en même temps, c'est mieux !",
         
         "website": "spwebdev.io",
         "headline": "Développeur web",
@@ -75,7 +75,7 @@
                     },
                     "url": "https://spwebdev.io",
                     "summary": "=> Accompagnement des TPE/PME dans le développement de leur activité via le digital",
-                    "achievements":"- Conception et développement de sites web vitrines, e-commerce, blog, plateforme web\n- Projet RESEA : Conception de développement d'une application de prise de rendez-vous en ligne \n- Service d'hébergement et maintenance\n- Conseil en visibilité web",
+                    "achievements":"- Conception et développement de sites web vitrines, e-commerce, blog, plateforme web\n- Projet RESEA : Conception de développement d'une application de prise de rendez-vous en ligne \n- Service d'hébergement et maintenance\n- Conseil en visibilité web",
                     "id": "0acc612f-89bd-4213-bba4-b40e75b6f9f9"
                 },
                 {
@@ -88,7 +88,7 @@
                     },
                     "url": "https://simplon.co",
                     "summary": "=> Préparation du titre professionnel développeur logiciel",
-                    "achievements":"- Projet MYBOOKINGAPP - Projet individuel et dossier professionnel : Développement Full Stack  \n- Projet MILOLIB - Projet d’équipe pour la MDEF : Product Owner et Développeur Front End, présentation du projet lors du séminaire 'Grand Paris Sud nouveau territoire de l’économie numérique'\n- Stage chez Absymédias ( 1 mois) : Participer au développement back-end d’une application de communication pour les réseaux automobiles.\n- Mini projets d’apprentissage : Développement d’applications Front-End, Back-End, et Full-Stack\n",
+                    "achievements":"- Projet MYBOOKINGAPP - Projet individuel et dossier professionnel : Développement Full Stack  \n- Projet MILOLIB - Projet d’équipe pour la MDEF : Product Owner et Développeur Front End, présentation du projet lors du séminaire 'Grand Paris Sud nouveau territoire de l’économie numérique'\n- Stage chez Absymédias ( 1 mois) : Participer au développement back-end d’une application de communication pour les réseaux automobiles.\n- Mini projets d’apprentissage : Développement d’applications Front-End, Back-End, et Full-Stack\n",
                     "id": "36c92c2a-8be2-449b-8698-fee918a3890d"
                 },
                 {
@@ -113,7 +113,7 @@
                         "end": "2015-12-31T23:00:00.000Z"
                     },
                     "url": "https://www.imperialbrandsplc.com/",
-                    "summary": "=> Projet European Commission - The Tobacco Products Directive : Coordination des approbations des Health Warning Templates / Interface entre les marchés et l’équipe interne dédiée\n",
+                    "summary": "=> Projet European Commission - The Tobacco Products Directive : Coordination des approbations des Health Warning Templates / Interface entre les marchés et l’équipe interne dédiée\n",
                     "achievements":"- Construction d’un outil de tracking\n- Centralisation des demandes de création de templates, suivi des développements, et des approbations\n- Participation au weekly EUTPD Taskforce meeting\n- Gestion des priorités et risques OOS\n",
                     "id": "25ce9c2b-a48c-4a67-b347-1d7e2de4e9b5"
                 },
@@ -126,7 +126,7 @@
                         "end": "2014-12-31T23:00:00.000Z"
                     },
                     "url": "https://www.pinterest.fr/lingerie1172/la-belle-affranchie-lingerie-grande-taille/",
-                    "achievements": "- Etude marché et Branding\n- Design produit, prototypage, animation ateliers essayages\n- Lancement et suivi de fabrication (Thaïlande)\n- Création et gestion du site internet, community management\n- Prospection et gestion commerciale\n- Animation vente en réunion\n- Mise en place d’une stratégie de stocks centralisés, service de dropshipping\n- Organisation événementielle “Real Women Happy Women” / défilés Pulp Fashion Week",
+                    "achievements": "- Etude marché et branding\n- Design produit, prototypage, animation ateliers essayages\n- Lancement et suivi de fabrication (Thaïlande)\n- Création et gestion du site internet, community management\n- Prospection et gestion commerciale\n- Animation vente en réunion\n- Mise en place d’une stratégie de stocks centralisés, service de dropshipping\n- Organisation événementielle “Real Women Happy Women” / défilés Pulp Fashion Week",
                     "summary":"=> Gestion la marque du design à la vente",
                     "id": "fa826ebd-c992-4bb9-bc0e-83c934fc21a0"
                 },
@@ -270,13 +270,12 @@
                         "start": "2019-01-01"
                     },
                     "name": "RESEA",
-                    "summary": "Progressive Web App\n-> Front développé en Typescript avec Angular : permet de créer un compte utilisateur, choisir les services proposés,  le prestataire, un créneau horaire parmi les plages proposées, renseigner ses infos et obtenir une confirmation de RDV. Le front est personnalisé avec logo et couleurs de l'entreprise. Les clients finaux ont la possibilité d'installer l'application sur leur mobile, grâce au format PWA.\n-> Back en PHP via plugin sous Wordpress et création de endpoints REST API. Création des prestations, personnalisation des messages, des services, des disponibilités. Confirmations envoyées par mail, par sms, et synchronisation avec Google Calendar et google contacts.",
+                    "summary": "Progressive Web App\n-> Front développé en Typescript avec Angular : permet de créer un compte utilisateur, choisir les services proposés,  le prestataire, un créneau horaire parmi les plages proposées, renseigner ses infos et obtenir une confirmation de RDV. Le front est personnalisé avec logo et couleurs de l'entreprise. Les clients finaux ont la possibilité d'installer l'application sur leur mobile, grâce au format PWA.\n-> Back en PHP via plugin sous Wordpress et création de endpoints REST API. Création des prestations, personnalisation des messages, des services, des disponibilités. Confirmations envoyées par mail, par sms, et synchronisation avec Google Calendar et google contacts.",
                     "keywords": [
                         "Typescript",
                         "HTML",
                         "CSS",
                         "Angular",
-                        "PWA",
                         "PWA",
                         "GoogleAppScript"
                     ],
@@ -286,11 +285,11 @@
                     "id": "cdcf15a0-f545-4971-8904-0dc679612500",
                     "url": "https://github.com/alihasana/MILOLIB",
                     "date": {
-                        "end": "2018-06-01",
+                        "end": "",
                         "start": "2018-01-01"
                     },
                     "name": "MILOLIB",
-                    "summary": "Product Owner et Développeur Front sur la partie Calendrier.\n-> Fronts développés en Javascript avec VueJs : \n1/ Front client permet à l'utilisateur de sélectionner des disponibilités. \n2/ Front permet de créer ses disponibilités.\nProjet présenté lors du séminaire 'Grand Paris Sud nouveau territoire de l’économie numérique' en présence de Mounir Mahjoubi, alors secrétaire d’État auprès du premier ministre chargé du numérique.",
+                    "summary": "Projet présenté lors du séminaire 'Grand Paris Sud nouveau territoire de l’économie numérique' en présence de Mounir Mahjoubi, alors secrétaire d’État auprès du premier ministre chargé du numérique.\nProduct Owner et Développeur Front sur la partie Calendrier\n-> Fronts développés en Javascript avec VueJs : \n1/ Front client permet à l'utilisateur de sélectionner des disponibilités\n2/ Front permet de créer ses disponibilités\n",
                     "keywords": [
                         "VueJS",
                         "NodeJS",
@@ -300,47 +299,47 @@
                         "SCSS",
                         "Bootstrap"
                     ],
-                    "description": "Projet d’équipe pour la Maison de l’emploi et de la Formation de Sénart : Réalisation d’un prototype de prise de rendez-vous et gestion d’agenda en ligne pour les conseillers de la MDEF afin d'ouvrir leurs RDV aux jeunes en demande de suivi."
+                    "description": "Projet d’équipe pour la Maison de l’emploi et de la Formation de Sénart : réalisation d’un prototype de prise de rendez-vous et gestion d’agenda en ligne pour les conseillers de la MDEF afin d'ouvrir leurs RDV aux jeunes en demande de suivi"
                 },
                 {
                     "id": "9b9fa5c3-a1de-4dcb-a9cb-8c371cb7aba0",
                     "url": "https://github.com/SandrinePradier/distime",
                     "date": {
-                        "end": "2018-12-01",
+                        "end": "",
                         "start": "2018-06-01"
                     },
                     "name": "DISTIME",
-                    "summary": "-> Front développé en Javascript avec VueJs : pour lancer les batchs de recueil de données\n-> Back en Javascript  sous NodeJS : lancement et traitement des requetes aux différentes API et enregistrement des datas en base de donnée\n-> BDD : MongoDB\nLes différentes API source informations utilisées pour le projet sont :\n- https://api.gouv.fr/api/api-geo.html ( lists des communes Ile de France )\n- https://www.data.gouv.fr/fr/datasets/arrondissements-1/ (détails  des arrondissements de Paris )\n- https://www.navitia.io (temps de transports )\n- https://api.mapbox.com/directions/v5/mapbox/driving (distance et temps de transports voiture)",
+                    "summary": "-> Front développé en Javascript avec VueJs : pour lancer les batchs de recueil de données\n-> Back en Javascript  sous NodeJS : lancement et traitement des requetes aux différentes API et enregistrement des datas en base de donnée\n-> BDD : MongoDB\nLes différentes API source informations utilisées pour le projet sont :\n- https://api.gouv.fr/api/api-geo.html ( lists des communes Ile de France )\n- https://www.data.gouv.fr/fr/datasets/arrondissements-1/ (détails  des arrondissements de Paris )\n- https://www.navitia.io (temps de transports )\n- https://api.mapbox.com/directions/v5/mapbox/driving (distance et temps de transports voiture)",
                     "keywords": [
                         "NodeJS",
                         "ExpressJS",
                         "VueJS",
                         "MongoDB"
                     ],
-                    "description": "Automatisation de la création d'une base de donnée : construction d' une routine qui interroge plusieurs API et récupération  des informations pour compléter la base de données de manière automatique."
+                    "description": "Automatisation de la création d'une base de donnée : construction d' une routine qui interroge plusieurs API et récupération  des informations pour compléter la base de données de manière automatique"
                 },
                 {
                     "id": "686e02d5-d748-429f-b503-3617f35537b6",
                     "url": "https://drive.google.com/drive/folders/1ABpD6BcSkX6VA4QbFGattGCrwVfuXo8T?usp=share_link",
                     "date": {
-                        "end": "2020-12-31",
+                        "end": "",
                         "start": "2020-01-01"
                     },
                     "name": "ESSENTIELLES BEAUTE",
-                    "summary": "Développé sous Wordpress, avec Woocommerce et Dokan pour la partie dashboard entreprise.\nModule de géolocalisation pour trouver une boutique autour de soi.",
+                    "summary": "Développé sous Wordpress, avec Woocommerce et Dokan pour la partie dashboard entreprise.\nModule de géolocalisation pour trouver une boutique autour de soi",
                     "keywords": [
                         "Wordpress",
                         "PHP",
                         "HTML",
                         "CSS"
                     ],
-                    "description": "Création d'une plateforme de vente en ligne pour que les commerces 'non-essentiels' du secteur de la beauté puisse vendre des bons cadeaux pendant le confinement."
+                    "description": "Création d'une plateforme de vente en ligne pour que les commerces 'non-essentiels' du secteur de la beauté puisse vendre des bons cadeaux pendant le confinement"
                 },
                 {
                     "id": "f17fd9d3-6bf0-4320-8077-14cdb3930d11",
                     "url": "https://github.com/SandrinePradier/BookingAppFront",
                     "date": {
-                        "end": "1018-06-01",
+                        "end": "",
                         "start": "2018-01-01"
                     },
                     "name": "BookingApp",
@@ -352,13 +351,13 @@
                         "VueJS",
                         "Vuetify"
                     ],
-                    "description": "Projet présenté dans le cadre du titre professionnel “Développeur Logiciel” niveau III est une application de prise de rendez-vous en ligne."
+                    "description": "Projet présenté dans le cadre du titre professionnel “Développeur Logiciel” niveau III est une application de prise de rendez-vous en ligne"
                 },
                 {
                     "id": "59581f61-d046-482e-8aae-111a452293d2",
                     "url": "https://automobile-majordome.fr/",
                     "date": {
-                        "end": "2022-12-30",
+                        "end": "",
                         "start": "2022-01-01"
                     },
                     "name": "Automobile Majordome",
@@ -374,7 +373,7 @@
                     "id": "d66f5025-5853-429e-b69c-533a496e66e1",
                     "url": "https://kallia-immobilier.fr/",
                     "date": {
-                        "end": "2021-06-01",
+                        "end": "",
                         "start": "2021-01-01"
                     },
                     "name": "Kallia immobilier",
@@ -506,7 +505,7 @@
         },
         "volunteer": {
             "id": "volunteer",
-            "name": "Volunteer Experience",
+            "name": "Bénévolat",
             "type": "basic",
             "items": [
                 {
@@ -517,7 +516,7 @@
                         "end": "2020-12-31"
                     },
                     "url": "",
-                    "summary": "Création et mise à disposition d'une plateforme de vente en ligne 'lieusaint - fêtes\" pour les commerçants restaurateurs de ma ville pendant les fêtes ",
+                    "summary": "Création et mise à disposition d'une plateforme de vente en ligne 'lieusaint-fêtes' pour les commerçants restaurateurs de ma ville pendant les fêtes, en 2020 ",
                     "id": "41840b04-de48-4dfc-8f2c-f0e312e7a779"
                 },
                 {
@@ -528,7 +527,7 @@
                         "end": "2020-01-31"
                     },
                     "url": "",
-                    "summary": "Animation d'un atelier de formation Wordpress à l'association CitésLab, Espace pour Entreprendre à Choisy le Roi",
+                    "summary": "Animation d'un atelier de formation Wordpress à l'association CitésLab, Espace pour Entreprendre à Choisy le Roi, en 2019",
                     "id": "360ea58f-7397-4b5b-8caa-09132280d08d"
                 },
                 {
@@ -539,7 +538,7 @@
                         "end": "2019-01-01"
                     },
                     "url": "",
-                    "summary": "Promotion du numérique sur le territoire de Grand Paris Sud - 2018 - 2019",
+                    "summary": "Soutien pour la promotion du numérique sur le territoire de Grand Paris Sud, pour l'association SenarTech, en 2018/2019",
                     "id": "92f44425-25e3-4013-9396-fb4207edb5f3"
                 }
             ],
