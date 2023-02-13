@@ -75,9 +75,9 @@ export class MyHeader extends LitElement {
         </div>
         <div class="header-summary">
           ${this.resume.basics.summary}
-        </div>
+       <!--  </div>
         <button>Télécharger le CV</button>
-        </div>
+        </div> -->
       </div>
     `
   }

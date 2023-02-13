@@ -35,7 +35,6 @@ export class MyProjects extends LitElement {
     }
     
     
-    
     return html`
       <div>
         <div class="title-bar">
@@ -45,14 +44,12 @@ export class MyProjects extends LitElement {
             ${repeat(this.projects, (pj)=> html`
                 <li class="resume-item">
                         <h3 ><a href="${pj.url}">${pj.name}</a></h3>
-                        
-                        
                         <h4 >${pj.description} &bull; <span class="formation-date">${this.formatDate(pj.date.start)}</span><span class="formation-date"> <span id="tiret"> - </span> ${this.formatDate(pj.date.end)}</span></h4>
                         <ul class="liststylenone inline bottom-space-10">
                           ${map(pj.keywords, (i) => html`<li class="keywords">${i}</li>`)}
                         </ul>
                           <ul class="liststylenone">
-                            ${map(pj.summaryline, (i) => html`<li >${i}</li>`)}
+                            ${map(pj.summaryline, (i) => html`<li class='projet-sum'>${i}</li>`)}
                           </ul>
                 </li>`
                 )}
@@ -60,16 +57,6 @@ export class MyProjects extends LitElement {
       </div>
     `
   }
-
-
-
-/*   private formatDate(date:string){
-    if (date){
-      let formatedDate = new Date(date);
-      return formatedDate.getFullYear();
-    }
-    else return "Aujourd'hui";
-  } */
 
   private formatDate(date:string){
     if (date !== "Aujourd'hui" && date !== ''){
@@ -120,11 +107,11 @@ export class MyProjects extends LitElement {
           margin-bottom:0.5rem;
         }
       }
-     .hidden{
-        display:none;
-      }
       #tiret{
         display:none;
+      }
+      .projet-sum{
+        overflow-wrap:anywhere;
       }
       
     `

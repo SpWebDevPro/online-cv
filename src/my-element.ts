@@ -30,7 +30,7 @@ export class MyElement extends LitElement {
     <my-training></my-training>
     <my-projects></my-projects>
     <language-interests></language-interests>
-      <p class="bottom-info">Ce site a dévéloppé en Javascript, HTML et CSS avec Lit et Vite</p>
+      <p class="bottom-info">Ce site a été dévéloppé en Javascript, HTML et CSS avec Lit et Vite</p>
     `
   }
 
@@ -42,7 +42,9 @@ export class MyElement extends LitElement {
       margin: 0 auto;
       padding: 2rem 0;
       text-align: center;
+      overflow-wrap:anywhere;
     }
+
     @media all and (min-width:765px) and (max-width:1050px){
       :host {
         min-width: 75%;

@@ -309,7 +309,7 @@
                         "start": "2018-06-01"
                     },
                     "name": "DISTIME",
-                    "summary": "-> Front développé en Javascript avec VueJs : pour lancer les batchs de recueil de données\n-> Back en Javascript  sous NodeJS : lancement et traitement des requetes aux différentes API et enregistrement des datas en base de donnée\n-> BDD : MongoDB\nLes différentes API source informations utilisées pour le projet sont :\n- https://api.gouv.fr/api/api-geo.html ( lists des communes Ile de France )\n- https://www.data.gouv.fr/fr/datasets/arrondissements-1/ (détails  des arrondissements de Paris )\n- https://www.navitia.io (temps de transports )\n- https://api.mapbox.com/directions/v5/mapbox/driving (distance et temps de transports voiture)",
+                    "summary": "-> Front développé en Javascript avec VueJs : pour lancer les batchs de recueil de données\n-> Back en Javascript  sous NodeJS : lancement et traitement des requetes aux différentes API et enregistrement des datas en base de donnée\n-> BDD : MongoDB\nLes différentes API source informations utilisées pour le projet sont :\n*https://api.gouv.fr/api/api-geo.html (liste des communes Ile de France)\n*https://www.data.gouv.fr/fr/datasets/arrondissements-1/ (détails  des arrondissements de Paris)\n*https://www.navitia.io (temps de transports)\n*https://api.mapbox.com/directions/v5/mapbox/driving (distance et temps de transports voiture)",
                     "keywords": [
                         "NodeJS",
                         "ExpressJS",
