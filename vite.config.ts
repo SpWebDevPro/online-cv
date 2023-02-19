@@ -12,5 +12,10 @@ export default defineConfig({
     rollupOptions: {
       external: /^lit/,
     }, */
+    rollupOptions: {
+      output:{
+        assetFileNames:`assets/[name][extname]`
+      }
+    },
   },
 })

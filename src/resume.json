@@ -29,31 +29,31 @@
             {
                 "network": "Twitter",
                 "username": "sandypradier",
-                "url": "twitter.com/sandypradier",
+                "url": "https://twitter.com/sandypradier",
                 "id": "86709a75-0ca0-4904-bfce-67493541f3f7"
             },
             {
                 "network": "LinkedIn",
                 "username": "sandrine-pradier",
-                "url": "linkedin.com/in/sandrine-pradier",
+                "url": "https://linkedin.com/in/sandrine-pradier",
                 "id": "76279dce-cd74-42fa-89f3-a05e6b4839ed"
             },
             {
                 "network": "GitHub",
                 "username": "SpWebDevPro",
-                "url": "github.com/SpWebDevPro",
+                "url": "https://github.com/SpWebDevPro",
                 "id": "6b1df516-12bd-4fb7-bc4e-a7834ac9f9ce"
             },
             {
                 "network": "Instagram",
                 "username": "spwebdev",
-                "url": "instagram.com/spwebdev",
+                "url": "https://instagram.com/spwebdev",
                 "id": "e7750bff-36b3-4434-b47e-9b3477a5a341"
             },
             {
                 "network": "Facebook",
                 "username": "spwebdevi",
-                "url": "facebook.com/spwebdevi/ ",
+                "url": "http://facebook.com/spwebdevi/ ",
                 "id": "c8fc89eb-6643-44b8-b45f-61016f5b92a3"
             }
         ],
