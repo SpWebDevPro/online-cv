@@ -7,7 +7,8 @@ import { typoStyles } from '../styles/typo-styles';
 import { titleBarStyles } from '../styles/title-bar-styles';
 
 import res from '../resume.json';
-import avatar from '../assets/avatar.jpg';
+import photo from '../assets/sandrine-pradier.jpeg';
+import cvFile from '../assets/sandrine-pradier_CV_1.pdf';
 import facebook from '../assets/icons-sn/icon-facebook.svg';
 import github from '../assets/icons-sn/icon-github.svg';
 import instagram from '../assets/icons-sn/icon-instagram.svg';
@@ -61,7 +62,7 @@ export class MyHeader extends LitElement {
               <li class="icon-link-item"><a href="tel:${this.contactphone}" ><img src=${phone} alt="${this.contactphone}" width="${this.width}" height="${this.width}" /></a></li>
               <li class="icon-link-item"><a href="mailto:${this.contactemail}" ><img src=${email} alt="${this.contactemail}" width="${this.width}" height="${this.width}" /></a></li>
             </ul>
-            <ul class="liststylenone">
+            <ul class="liststylenone listsocialicon">
               ${map(this.socialprofiles, (sp)=> html`<li class="icon-link-item"><a href="${sp.url}" class="icon-link" ><img src=${sp.image} alt="${sp.network} logo" width="${this.width}" height="${this.width}" /></a></li>`)}
             </ul>
             <ul class=liststylenone>
@@ -75,9 +76,9 @@ export class MyHeader extends LitElement {
         </div>
         <div class="header-summary">
           ${this.resume.basics.summary}
-       <!--  </div>
-        <button>Télécharger le CV</button>
-        </div> -->
+        </div>
+          <a class="button" href="${cvFile}">Télécharger le CV</a>
+        </div>
       </div>
     `
   }
@@ -86,8 +87,8 @@ export class MyHeader extends LitElement {
     if (this.resume.basics.photo.visible){
       if (this.resume.basics.photo.url){
         this.imageurl = this.resume.basics.photo.url;
-      } else if (avatar) {
-        this.imageurl = avatar;
+      } else if (photo) {
+        this.imageurl = photo;
       } else {
         this.imageurl = '';
         this.imagedisplay = 'none';
@@ -123,7 +124,6 @@ export class MyHeader extends LitElement {
         display: block;
         border-radius:100%;
       }
-    
       .icon-links {
         margin: 0;
         padding-top: .8rem;
@@ -135,14 +135,23 @@ export class MyHeader extends LitElement {
           padding-left: 0rem;
         }
       }
-      
       .icon-link-item {
         display: inline;
         margin-left: .6rem;
       }
-
       .header-summary {
         margin:1.5rem 0.5rem;
+      }
+      a.button{
+        text-decoration:none;
+        color:var(--dark-color);
+        max-width: 10rem;
+        display: block;
+        margin: auto;
+        margin-top:2rem;
+      }
+      ul.liststylenone.listsocialicon {
+        margin-top: -1px;
       }
     
     `

@@ -30,7 +30,7 @@ export class MyElement extends LitElement {
     <my-training></my-training>
     <my-projects></my-projects>
     <language-interests></language-interests>
-      <p class="bottom-info">Ce site a été dévéloppé en Javascript, HTML et CSS avec Lit et Vite</p>
+      <p class="bottom-info">Ce site a été dévéloppé en Javascript, HTML et CSS avec Lit et ViteJS</p>
     `
   }
 
