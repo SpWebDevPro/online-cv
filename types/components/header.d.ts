@@ -1,4 +1,4 @@
-import { LitElement } from 'lit';
+import { LitElement } from "lit";
 export declare class MyHeader extends LitElement {
     /**
      * Copy for the read the docs hint.
@@ -253,6 +253,6 @@ export declare class MyHeader extends LitElement {
 }
 declare global {
     interface HTMLElementTagNameMap {
-        'my-header': HTMLElement;
+        "my-header": HTMLElement;
     }
 }

@@ -1,668 +1,639 @@
-[{
+[
+  {
     "basics": {
-        "name": "Sandrine Pradier",
-        "email": "sandrine.pradier@gmx.fr",
-        "phone": "0660440776",
-        "photo": {
-            "url": "",
-            "filters": {
-                "size": 128,
-                "shape": "square",
-                "border": false,
-                "grayscale": false
-            },
-            "visible": true
+      "name": "Sandrine Pradier",
+      "email": "sandrine.pradier@gmx.fr",
+      "phone": "0660440776",
+      "photo": {
+        "url": "",
+        "filters": {
+          "size": 128,
+          "shape": "square",
+          "border": false,
+          "grayscale": false
         },
-        "objectives": "Intégrer une équipe dev Angular dans le cadre d'une mission longue durée",
-        "summary": "Reconvertie dans le développement web à 42 ans, j'ai déjà un riche parcours professionnel et entrepreneurial. Ce qui m'anime ? Concevoir, développer et améliorer un produit, en intégrant aussi bien les enjeux business que les attentes de l’utilisateur. Et si je peux le faire en équipe et apprendre en même temps, c'est mieux !",
-        
-        "website": "https://spwebdev.io",
-        "headline": "Développeur web",
-        "location": {
-            "city": "",
-            "region": "",
-            "address": "Lieusaint",
-            "country": "France",
-            "postalCode": "77127"
+        "visible": true
+      },
+      "objectives": "Intégrer une équipe dev Angular dans le cadre d'une mission longue durée",
+      "summary": "Reconvertie dans le développement web, j'ai déjà un riche parcours professionnel et entrepreneurial. Ce qui m'anime ? Concevoir, développer et améliorer un produit, en intégrant aussi bien les enjeux business que les attentes de l’utilisateur. J'aspire à partager en équipe",
+
+      "website": "https://spwebdev.io",
+      "headline": "Développeur web",
+      "location": {
+        "city": "",
+        "region": "",
+        "address": "Lieusaint",
+        "country": "France",
+        "postalCode": "77127"
+      },
+      "profiles": [
+        {
+          "network": "Twitter",
+          "username": "sandypradier",
+          "url": "https://twitter.com/sandypradier",
+          "id": "86709a75-0ca0-4904-bfce-67493541f3f7"
         },
-        "profiles": [
-            {
-                "network": "Twitter",
-                "username": "sandypradier",
-                "url": "https://twitter.com/sandypradier",
-                "id": "86709a75-0ca0-4904-bfce-67493541f3f7"
-            },
-            {
-                "network": "LinkedIn",
-                "username": "sandrine-pradier",
-                "url": "https://linkedin.com/in/sandrine-pradier",
-                "id": "76279dce-cd74-42fa-89f3-a05e6b4839ed"
-            },
-            {
-                "network": "GitHub",
-                "username": "SpWebDevPro",
-                "url": "https://github.com/SpWebDevPro",
-                "id": "6b1df516-12bd-4fb7-bc4e-a7834ac9f9ce"
-            },
-            {
-                "network": "Instagram",
-                "username": "spwebdev",
-                "url": "https://instagram.com/spwebdev",
-                "id": "e7750bff-36b3-4434-b47e-9b3477a5a341"
-            },
-            {
-                "network": "Facebook",
-                "username": "spwebdevi",
-                "url": "http://facebook.com/spwebdevi/ ",
-                "id": "c8fc89eb-6643-44b8-b45f-61016f5b92a3"
-            }
-        ],
-        "birthdate": "1976-07-27"
+        {
+          "network": "LinkedIn",
+          "username": "sandrine-pradier",
+          "url": "https://linkedin.com/in/sandrine-pradier",
+          "id": "76279dce-cd74-42fa-89f3-a05e6b4839ed"
+        },
+        {
+          "network": "GitHub",
+          "username": "SpWebDevPro",
+          "url": "https://github.com/SpWebDevPro",
+          "id": "6b1df516-12bd-4fb7-bc4e-a7834ac9f9ce"
+        },
+        {
+          "network": "Instagram",
+          "username": "spwebdev",
+          "url": "https://instagram.com/spwebdev",
+          "id": "e7750bff-36b3-4434-b47e-9b3477a5a341"
+        },
+        {
+          "network": "Facebook",
+          "username": "spwebdevi",
+          "url": "http://facebook.com/spwebdevi/ ",
+          "id": "c8fc89eb-6643-44b8-b45f-61016f5b92a3"
+        }
+      ],
+      "birthdate": "1976-07-27"
     },
     "sections": {
-        "work": {
-            "id": "work",
-            "name": "Expériences professionnelles",
-            "type": "work",
-            "items": [
-                {
-                    "name": "Spwebdev",
-                    "sector":"",
-                    "position": "Web Developer Freelance",
-                    "date": {
-                        "start": "2018-12-31T23:00:00.000Z",
-                        "end": ""
-                    },
-                    "url": "https://spwebdev.io",
-                    "summary": "=> Accompagnement des TPE/PME dans le développement de leur activité via le digital",
-                    "achievements":"- Conception et développement de sites web vitrines, e-commerce, blog, plateforme web\n- Projet RESEA : Conception de développement d'une application de prise de rendez-vous en ligne \n- Service d'hébergement et maintenance\n- Conseil en visibilité web",
-                    "id": "0acc612f-89bd-4213-bba4-b40e75b6f9f9"
-                },
-                {
-                    "name": "Simplon Sénart",
-                    "sector":"Fabrique numérique solidaire (Grande Ecole Numérique)",
-                    "position": "Web Developer - Stagiaire de la formation professionnelle",
-                    "date": {
-                        "start": "2017-08-31T22:00:00.000Z",
-                        "end": "2018-06-29T22:00:00.000Z"
-                    },
-                    "url": "https://simplon.co",
-                    "summary": "=> Préparation du titre professionnel développeur logiciel",
-                    "achievements":"- Projet MYBOOKINGAPP - Projet individuel et dossier professionnel : Développement Full Stack  \n- Projet MILOLIB - Projet d’équipe pour la MDEF : Product Owner et Développeur Front End, présentation du projet lors du séminaire 'Grand Paris Sud nouveau territoire de l’économie numérique'\n- Stage chez Absymédias ( 1 mois) : Participer au développement back-end d’une application de communication pour les réseaux automobiles.\n- Mini projets d’apprentissage : Développement d’applications Front-End, Back-End, et Full-Stack\n",
-                    "id": "36c92c2a-8be2-449b-8698-fee918a3890d"
-                },
-                {
-                    "name": "Impérial Brands",
-                    "sector":"4ème fabricant mondial de cigarettes, CA 34 000 M€",
-                    "position": "User support & Product Owner",
-                    "date": {
-                        "start": "2015-12-31T23:00:00.000Z",
-                        "end": "2017-04-30T22:00:00.000Z"
-                    },
-                    "url": "https://www.imperialbrandsplc.com/",
-                    "summary": "=> Participation au projet de conception de logiciel PLM, département Print Development - En mode agile (Scrum)",
-                    "achievements":"- Organisation de Key user meeting \n- Rédaction de users stories, priorisation, gestion du product backlog (JIRA)\n- Participation aux réunions weekly stand up meeting, sprint planning\n- Test et validation, organisation des User Acceptance Test\n- Support utilisateur après les releases, rédaction de guides utilisateurs, training équipes métiers\n- Aide à la résolution des bugs, rédaction des findings",
-                    "id": "b3ce4bb8-cdf2-456c-854d-43ad42bd6cf9"
-                },
-                {
-                    "name": "Impérial Brands",
-                    "sector":"4ème fabricant mondial de cigarettes, CA 34 000 M€",
-                    "position": "Coordinatrice Print development (EUTPD Taskforce Member)",
-                    "date": {
-                        "start": "2012-12-31T23:00:00.000Z",
-                        "end": "2015-12-31T23:00:00.000Z"
-                    },
-                    "url": "https://www.imperialbrandsplc.com/",
-                    "summary": "=> Projet European Commission - The Tobacco Products Directive : Coordination des approbations des Health Warning Templates / Interface entre les marchés et l’équipe interne dédiée\n",
-                    "achievements":"- Construction d’un outil de tracking\n- Centralisation des demandes de création de templates, suivi des développements, et des approbations\n- Participation au weekly EUTPD Taskforce meeting\n- Gestion des priorités et risques OOS\n",
-                    "id": "25ce9c2b-a48c-4a67-b347-1d7e2de4e9b5"
-                },
-                {
-                    "name": "D2IS - La Belle Affranchie",
-                    "sector":"Création et distribution de lingerie grande taille - dans 15 points de vente + vente en ligne",
-                    "position": "Founder & Owner",
-                    "date": {
-                        "start": "2011-12-31T23:00:00.000Z",
-                        "end": "2014-12-31T23:00:00.000Z"
-                    },
-                    "url": "https://www.pinterest.fr/lingerie1172/la-belle-affranchie-lingerie-grande-taille/",
-                    "achievements": "- Etude marché et branding\n- Design produit, prototypage, animation ateliers essayages\n- Lancement et suivi de fabrication (Thaïlande)\n- Création et gestion du site internet, community management\n- Prospection et gestion commerciale\n- Animation vente en réunion\n- Mise en place d’une stratégie de stocks centralisés, service de dropshipping\n- Organisation événementielle “Real Women Happy Women” / défilés Pulp Fashion Week",
-                    "summary":"=> Gestion la marque du design à la vente",
-                    "id": "fa826ebd-c992-4bb9-bc0e-83c934fc21a0"
-                },
-                {
-                    "name": "Impérial Brands",
-                    "sector":"4ème fabricant mondial de cigarettes, CA 34 000 M€",
-                    "position": "Support & Coordinatrice Print Development",
-                    "date": {
-                        "start": "2010-12-31T23:00:00.000Z",
-                        "end": "2011-12-29T23:00:00.000Z"
-                    },
-                    "url": "https://www.imperialbrandsplc.com/",
-                    "summary": "=> Département Product & Packaging Development\nInitiation dans le système des projets de développement Print packaging, en étroite relation avec les print specialists, agences, graphistes, imprimeurs, usines, pour les marchés Western Europe, Africa & Middle East, Duty Free\n",
-                    "achievements":"- Initiation de 1500 Artwork annuels sur  98 marchés\n- Gestion de projets changement de prix et migration de marque\n",
-                    "id": "9c26f64f-bed2-4af4-ad25-472dbbb74f98"
-                },
-                {
-                    "name": "Sourcing & Design Ressources",
-                    "sector":"Commerce inter-entreprises secteur balnéaire, lingerie et chaussant",
-                    "position": "Founder & Owner",
-                    "date": {
-                        "start": "2007-12-31T23:00:00.000Z",
-                        "end": "2011-12-29T23:00:00.000Z"
-                    },
-                    "url": "",
-                    "summary": "=> Création de collections et développement commercial pour le compte d’usines étrangères (Chine, Inde)",
-                    "achievements":"",
-                    "id": "36a99fbd-7522-4340-91ec-1ffcf4e0d552"
-                },
-                {
-                    "name": "MIM - Groupe New Look",
-                    "sector":"Prêt-à-porter, lingerie et accessoires de mode",
-                    "position": "Senior Buyer / Product Manager",
-                    "date": {
-                        "start": "2004-12-31T23:00:00.000Z",
-                        "end": "2008-12-29T23:00:00.000Z"
-                    },
-                    "url": "https://www.newlook.com/fr/",
-                    "summary": "=> Lancement et développement des gammes lingerie, chaussant et maillot de bain - Référencement lingerie de 60 à 240 boutiques, et multiplication du CA par 3 par magasin sur espace fixe\n",
-                    "achievements":"- Analyse de marché, suivi des tendances\n- Lesson learnt, plan de collection, analyse des performances\n- Stylisme, dossiers techniques, prototypage, et validation des produits\n- Sourcing international, négociation\n- Achat, gestion budgétaire,\n- Range review et buying sessions\n- Visuel merchandising",
-                    "id": "bb102f61-62b3-4ae3-84fb-35968c3c72c9"
-                },
-                {
-                    "name": "Body One, Morgan, Jennyfer",
-                    "sector":"Prêt-à-porter et lingerie féminine",
-                    "position": "Buyer / Product Manager",
-                    "date": {
-                        "start": "1997-12-31T23:00:00.000Z",
-                        "end": "2004-12-29T23:00:00.000Z"
-                    },
-                    "url": "",
-                    "summary": "",
-                    "achievements":"",
-                    "id": "e045b028-8ad1-4dfe-83aa-2b1a4e678f46"
-                }
+      "work": {
+        "id": "work",
+        "name": "Expériences professionnelles",
+        "type": "work",
+        "items": [
+          {
+            "name": "Spwebdev",
+            "sector": "",
+            "position": "Web Developer Freelance",
+            "date": {
+              "start": "2018-12-31T23:00:00.000Z",
+              "end": ""
+            },
+            "url": "https://spwebdev.io",
+            "summary": "=> Accompagnement des TPE/PME dans le développement de leur activité via le digital",
+            "achievements": "- Conception et développement de sites web vitrines, e-commerce, blog, plateforme web\n- Projet RESEA : Conception de développement d'une application de prise de rendez-vous en ligne \n- Service d'hébergement et maintenance\n- Conseil en visibilité web",
+            "id": "0acc612f-89bd-4213-bba4-b40e75b6f9f9"
+          },
+          {
+            "name": "Simplon Sénart",
+            "sector": "Fabrique numérique solidaire (Grande Ecole Numérique)",
+            "position": "Web Developer - Stagiaire de la formation professionnelle",
+            "date": {
+              "start": "2017-08-31T22:00:00.000Z",
+              "end": "2018-06-29T22:00:00.000Z"
+            },
+            "url": "https://simplon.co",
+            "summary": "=> Préparation du titre professionnel développeur logiciel",
+            "achievements": "- Projet MYBOOKINGAPP - Projet individuel et dossier professionnel : Développement Full Stack  \n- Projet MILOLIB - Projet d’équipe pour la MDEF : Product Owner et Développeur Front End, présentation du projet lors du séminaire 'Grand Paris Sud nouveau territoire de l’économie numérique'\n- Stage chez Absymédias ( 1 mois) : Participer au développement back-end d’une application de communication pour les réseaux automobiles.\n- Mini projets d’apprentissage : Développement d’applications Front-End, Back-End, et Full-Stack\n",
+            "id": "36c92c2a-8be2-449b-8698-fee918a3890d"
+          },
+          {
+            "name": "Impérial Brands",
+            "sector": "4ème fabricant mondial de cigarettes, CA 34 000 M€",
+            "position": "User support & Product Owner",
+            "date": {
+              "start": "2015-12-31T23:00:00.000Z",
+              "end": "2017-04-30T22:00:00.000Z"
+            },
+            "url": "https://www.imperialbrandsplc.com/",
+            "summary": "=> Participation au projet de conception de logiciel PLM, département Print Development - En mode agile (Scrum)",
+            "achievements": "- Organisation de Key user meeting \n- Rédaction de users stories, priorisation, gestion du product backlog (JIRA)\n- Participation aux réunions weekly stand up meeting, sprint planning\n- Test et validation, organisation des User Acceptance Test\n- Support utilisateur après les releases, rédaction de guides utilisateurs, training équipes métiers\n- Aide à la résolution des bugs, rédaction des findings",
+            "id": "b3ce4bb8-cdf2-456c-854d-43ad42bd6cf9"
+          },
+          {
+            "name": "Impérial Brands",
+            "sector": "4ème fabricant mondial de cigarettes, CA 34 000 M€",
+            "position": "Coordinatrice Print development (EUTPD Taskforce Member)",
+            "date": {
+              "start": "2012-12-31T23:00:00.000Z",
+              "end": "2015-12-31T23:00:00.000Z"
+            },
+            "url": "https://www.imperialbrandsplc.com/",
+            "summary": "=> Projet European Commission - The Tobacco Products Directive : Coordination des approbations des Health Warning Templates / Interface entre les marchés et l’équipe interne dédiée\n",
+            "achievements": "- Construction d’un outil de tracking\n- Centralisation des demandes de création de templates, suivi des développements, et des approbations\n- Participation au weekly EUTPD Taskforce meeting\n- Gestion des priorités et risques OOS\n",
+            "id": "25ce9c2b-a48c-4a67-b347-1d7e2de4e9b5"
+          },
+          {
+            "name": "D2IS - La Belle Affranchie",
+            "sector": "Création et distribution de lingerie grande taille - dans 15 points de vente + vente en ligne",
+            "position": "Founder & Owner",
+            "date": {
+              "start": "2011-12-31T23:00:00.000Z",
+              "end": "2014-12-31T23:00:00.000Z"
+            },
+            "url": "https://www.pinterest.fr/lingerie1172/la-belle-affranchie-lingerie-grande-taille/",
+            "achievements": "- Etude marché et branding\n- Design produit, prototypage, animation ateliers essayages\n- Lancement et suivi de fabrication (Thaïlande)\n- Création et gestion du site internet, community management\n- Prospection et gestion commerciale\n- Animation vente en réunion\n- Mise en place d’une stratégie de stocks centralisés, service de dropshipping\n- Organisation événementielle “Real Women Happy Women” / défilés Pulp Fashion Week",
+            "summary": "=> Gestion la marque du design à la vente",
+            "id": "fa826ebd-c992-4bb9-bc0e-83c934fc21a0"
+          },
+          {
+            "name": "Impérial Brands",
+            "sector": "4ème fabricant mondial de cigarettes, CA 34 000 M€",
+            "position": "Support & Coordinatrice Print Development",
+            "date": {
+              "start": "2010-12-31T23:00:00.000Z",
+              "end": "2011-12-29T23:00:00.000Z"
+            },
+            "url": "https://www.imperialbrandsplc.com/",
+            "summary": "=> Département Product & Packaging Development\nInitiation dans le système des projets de développement Print packaging, en étroite relation avec les print specialists, agences, graphistes, imprimeurs, usines, pour les marchés Western Europe, Africa & Middle East, Duty Free\n",
+            "achievements": "- Initiation de 1500 Artwork annuels sur  98 marchés\n- Gestion de projets changement de prix et migration de marque\n",
+            "id": "9c26f64f-bed2-4af4-ad25-472dbbb74f98"
+          },
+          {
+            "name": "Sourcing & Design Ressources",
+            "sector": "Commerce inter-entreprises secteur balnéaire, lingerie et chaussant",
+            "position": "Founder & Owner",
+            "date": {
+              "start": "2007-12-31T23:00:00.000Z",
+              "end": "2011-12-29T23:00:00.000Z"
+            },
+            "url": "",
+            "summary": "=> Création de collections et développement commercial pour le compte d’usines étrangères (Chine, Inde)",
+            "achievements": "",
+            "id": "36a99fbd-7522-4340-91ec-1ffcf4e0d552"
+          },
+          {
+            "name": "MIM - Groupe New Look",
+            "sector": "Prêt-à-porter, lingerie et accessoires de mode",
+            "position": "Senior Buyer / Product Manager",
+            "date": {
+              "start": "2004-12-31T23:00:00.000Z",
+              "end": "2008-12-29T23:00:00.000Z"
+            },
+            "url": "https://www.newlook.com/fr/",
+            "summary": "=> Lancement et développement des gammes lingerie, chaussant et maillot de bain - Référencement lingerie de 60 à 240 boutiques, et multiplication du CA par 3 par magasin sur espace fixe\n",
+            "achievements": "- Analyse de marché, suivi des tendances\n- Lesson learnt, plan de collection, analyse des performances\n- Stylisme, dossiers techniques, prototypage, et validation des produits\n- Sourcing international, négociation\n- Achat, gestion budgétaire,\n- Range review et buying sessions\n- Visuel merchandising",
+            "id": "bb102f61-62b3-4ae3-84fb-35968c3c72c9"
+          },
+          {
+            "name": "Body One, Morgan, Jennyfer",
+            "sector": "Prêt-à-porter et lingerie féminine",
+            "position": "Buyer / Product Manager",
+            "date": {
+              "start": "1997-12-31T23:00:00.000Z",
+              "end": "2004-12-29T23:00:00.000Z"
+            },
+            "url": "",
+            "summary": "",
+            "achievements": "",
+            "id": "e045b028-8ad1-4dfe-83aa-2b1a4e678f46"
+          }
+        ],
+        "columns": 2,
+        "visible": true
+      },
+      "awards": {
+        "id": "awards",
+        "name": "Awards",
+        "type": "basic",
+        "items": [],
+        "columns": 2,
+        "visible": false
+      },
+      "skills": {
+        "id": "skills",
+        "name": "Compétences",
+        "type": "basic",
+        "items": [
+          {
+            "name": "Développement Web",
+            "level": "",
+            "levelNum": 0,
+            "keywords": [
+              "Développement Front",
+              "Développement Back",
+              "Gestion des données",
+              "Tests et déploiement",
+              "Recherche de solutions techniques",
+              "Web design",
+              "Responsive design",
+              "Référencement 'on site'"
             ],
-            "columns": 2,
-            "visible": true
-        },
-        "awards": {
-            "id": "awards",
-            "name": "Awards",
-            "type": "basic",
-            "items": [],
-            "columns": 2,
-            "visible": false
-        },
-        "skills": {
-            "id": "skills",
-            "name": "Compétences",
-            "type": "basic",
-            "items": [
-                {
-                    "name": "Développement Web",
-                    "level": "",
-                    "levelNum": 0,
-                    "keywords": [
-                        "Développement Front",
-                        "Développement Back",
-                        "Gestion des données",
-                        "Tests et déploiement",
-                        "Recherche de solutions techniques",
-                        "Web design",
-                        "Responsive design",
-                        "Référencement 'on site'"
-                    ],
-                    "id": "d6c4db6d-c525-4c10-b914-4c5ddd3d9b74"
-                },
-                {
-                    "name": "Technos",
-                    "level": "",
-                    "levelNum": 0,
-                    "keywords": [
-                        "Javascript",
-                        "Typescript",
-                        "HTML",
-                        "CSS",
-                        "NodeJS",
-                        "Angular",
-                        "VueJs",
-                        "Rxjs",
-                        "ViteJs",
-                        "LitJs",
-                        "PWA",
-                        "GoogleAppScript",
-                        "Git",
-                        "Wordpress"
-                        
-                    ],
-                    "id": "54874569-329c-40ae-9327-581d6fe26b83"
-                },
-                {
-                    "name": "Gestion de projet, Business & Product management",
-                    "level": "",
-                    "levelNum": 0,
-                    "keywords": [
-                        "Scrum PSPO",
-                        "Formation utilisateurs",
-                        "Relations clients",
-                        "Recueil des besoins utilisateurs",
-                        "Analyse de marché",
-                        "Définition et suivi de KPI",
-                        "Positionnement et stratégie produit"
-                    ],
-                    "id": "ecd51396-9a65-4530-98e5-2d9103afe9ad"
-                }
+            "id": "d6c4db6d-c525-4c10-b914-4c5ddd3d9b74"
+          },
+          {
+            "name": "Technos",
+            "level": "",
+            "levelNum": 0,
+            "keywords": [
+              "Javascript",
+              "Typescript",
+              "HTML",
+              "CSS",
+              "NodeJS",
+              "Angular",
+              "VueJs",
+              "Rxjs",
+              "ViteJs",
+              "LitJs",
+              "PWA",
+              "GoogleAppScript",
+              "Git",
+              "Wordpress"
             ],
-            "columns": 1,
-            "visible": true
-        },
-        "projects": {
-            "id": "projects",
-            "name": "Quelques projets",
-            "type": "basic",
-            "items": [
-                {
-                    "id": "558d6a88-4605-4190-80c9-6dd1644466eb",
-                    "url": "https://reseademomobile.web.app/",
-                    "date": {
-                        "end": "2021-12-01",
-                        "start": "2019-01-01"
-                    },
-                    "name": "RESEA",
-                    "summary": "Progressive Web App\n-> Front développé en Typescript avec Angular : permet de créer un compte utilisateur, choisir les services proposés,  le prestataire, un créneau horaire parmi les plages proposées, renseigner ses infos et obtenir une confirmation de RDV. Le front est personnalisé avec logo et couleurs de l'entreprise. Les clients finaux ont la possibilité d'installer l'application sur leur mobile, grâce au format PWA.\n-> Back en PHP via plugin sous Wordpress et création de endpoints REST API. Création des prestations, personnalisation des messages, des services, des disponibilités. Confirmations envoyées par mail, par sms, et synchronisation avec Google Calendar et google contacts.",
-                    "keywords": [
-                        "Typescript",
-                        "HTML",
-                        "CSS",
-                        "Angular",
-                        "PWA",
-                        "GoogleAppScript"
-                    ],
-                    "description": "Application de réservation en ligne, téléchargeable en version mobile (progressive web app)"
-                },
-                {
-                    "id": "cdcf15a0-f545-4971-8904-0dc679612500",
-                    "url": "https://github.com/alihasana/MILOLIB",
-                    "date": {
-                        "end": "",
-                        "start": "2018-01-01"
-                    },
-                    "name": "MILOLIB",
-                    "summary": "Projet présenté lors du séminaire 'Grand Paris Sud nouveau territoire de l’économie numérique' en présence de Mounir Mahjoubi, alors secrétaire d’État auprès du premier ministre chargé du numérique.\nProduct Owner et Développeur Front sur la partie Calendrier\n-> Fronts développés en Javascript avec VueJs : \n1/ Front client permet à l'utilisateur de sélectionner des disponibilités\n2/ Front permet de créer ses disponibilités\n",
-                    "keywords": [
-                        "VueJS",
-                        "NodeJS",
-                        "ExpressJS",
-                        "MongoDB",
-                        "CSS",
-                        "SCSS",
-                        "Bootstrap"
-                    ],
-                    "description": "Projet d’équipe pour la Maison de l’emploi et de la Formation de Sénart : réalisation d’un prototype de prise de rendez-vous et gestion d’agenda en ligne pour les conseillers de la MDEF afin d'ouvrir leurs RDV aux jeunes en demande de suivi"
-                },
-                {
-                    "id": "9b9fa5c3-a1de-4dcb-a9cb-8c371cb7aba0",
-                    "url": "https://github.com/SandrinePradier/distime",
-                    "date": {
-                        "end": "",
-                        "start": "2018-06-01"
-                    },
-                    "name": "DISTIME",
-                    "summary": "-> Front développé en Javascript avec VueJs : pour lancer les batchs de recueil de données\n-> Back en Javascript  sous NodeJS : lancement et traitement des requetes aux différentes API et enregistrement des datas en base de donnée\n-> BDD : MongoDB\nLes différentes API source informations utilisées pour le projet sont :\n*https://api.gouv.fr/api/api-geo.html (liste des communes Ile de France)\n*https://www.data.gouv.fr/fr/datasets/arrondissements-1/ (détails  des arrondissements de Paris)\n*https://www.navitia.io (temps de transports)\n*https://api.mapbox.com/directions/v5/mapbox/driving (distance et temps de transports voiture)",
-                    "keywords": [
-                        "NodeJS",
-                        "ExpressJS",
-                        "VueJS",
-                        "MongoDB"
-                    ],
-                    "description": "Automatisation de la création d'une base de donnée : construction d' une routine qui interroge plusieurs API et récupération  des informations pour compléter la base de données de manière automatique"
-                },
-                {
-                    "id": "686e02d5-d748-429f-b503-3617f35537b6",
-                    "url": "https://drive.google.com/drive/folders/1ABpD6BcSkX6VA4QbFGattGCrwVfuXo8T?usp=share_link",
-                    "date": {
-                        "end": "",
-                        "start": "2020-01-01"
-                    },
-                    "name": "ESSENTIELLES BEAUTE",
-                    "summary": "Développé sous Wordpress, avec Woocommerce et Dokan pour la partie dashboard entreprise.\nModule de géolocalisation pour trouver une boutique autour de soi",
-                    "keywords": [
-                        "Wordpress",
-                        "PHP",
-                        "HTML",
-                        "CSS"
-                    ],
-                    "description": "Création d'une plateforme de vente en ligne pour que les commerces 'non-essentiels' du secteur de la beauté puisse vendre des bons cadeaux pendant le confinement"
-                },
-                {
-                    "id": "f17fd9d3-6bf0-4320-8077-14cdb3930d11",
-                    "url": "https://github.com/SandrinePradier/BookingAppFront",
-                    "date": {
-                        "end": "",
-                        "start": "2018-01-01"
-                    },
-                    "name": "BookingApp",
-                    "summary": "-> Front utilisateur final et front entreprise développé en Javascript avec VueJs  et Vuetify\n-> Backend en Javascript, sous NodeJs\n-> Base de données non relationnelle MongoDB",
-                    "keywords": [
-                        "NodeJS",
-                        "ExpressJS",
-                        "MongoDB",
-                        "VueJS",
-                        "Vuetify"
-                    ],
-                    "description": "Projet présenté dans le cadre du titre professionnel “Développeur Logiciel” niveau III est une application de prise de rendez-vous en ligne"
-                },
-                {
-                    "id": "59581f61-d046-482e-8aae-111a452293d2",
-                    "url": "https://automobile-majordome.fr/",
-                    "date": {
-                        "end": "",
-                        "start": "2022-01-01"
-                    },
-                    "name": "Automobile Majordome",
-                    "summary": "Site classique Wordpress + mise en place de blog\nCréation de templates annonces avec champs de données spécifiques avec ACF et API rest Wordpress, et Javascript",
-                    "keywords": [
-                        "Wordpress",
-                        "Javascript",
-                        "PHP"
-                    ],
-                    "description": "Création d'un site Web qui permet à l'entreprise de présenter ses services et mettre en avant des annonces de vente ou recherche de véhicules"
-                },
-                {
-                    "id": "d66f5025-5853-429e-b69c-533a496e66e1",
-                    "url": "https://kallia-immobilier.fr/",
-                    "date": {
-                        "end": "",
-                        "start": "2021-01-01"
-                    },
-                    "name": "Kallia immobilier",
-                    "summary": "Site classique Wordpress + mise en place de blog\nCréation de templates localisation avec champs de données spécifiques ACF.",
-                    "keywords": [
-                        "Wordpress",
-                        "SEO"
-                    ],
-                    "description": "Création d'un site web vitrine + pages de locations /FAQ pour booster le SEO"
-                }
+            "id": "54874569-329c-40ae-9327-581d6fe26b83"
+          },
+          {
+            "name": "Gestion de projet, Business & Product management",
+            "level": "",
+            "levelNum": 0,
+            "keywords": [
+              "Scrum PSPO",
+              "Formation utilisateurs",
+              "Relations clients",
+              "Recueil des besoins utilisateurs",
+              "Analyse de marché",
+              "Définition et suivi de KPI",
+              "Positionnement et stratégie produit"
             ],
-            "columns": 2,
-            "visible": true
-        },
-        "education": {
-            "id": "education",
-            "name": "Formations",
-            "type": "basic",
-            "items": [
-                {
-                    "id": "eb9e8d7a-98f6-430a-997b-1b7348726cde",
-                    "url": "simplon.co",
-                    "area": "Formation Développeur Logiciel Web",
-                    "date": {
-                        "end": "2018-06-29T22:00:00.000Z",
-                        "start": "2017-08-31T22:00:00.000Z"
-                    },
-                    "score": "",
-                    "degree": "Titre professionnel Développeur logiciel (niveau III)",
-                    "courses": [],
-                    "summary": "",
-                    "institution": "Simplon Sénart"
-                },
-                {
-                    "id": "12da556e-ba2c-4788-bc21-735fdada7240",
-                    "url": "modspeparis.com",
-                    "area": "",
-                    "date": {
-                        "end": "1998-08-29T22:00:00.000Z",
-                        "start": "1995-12-31T23:00:00.000Z"
-                    },
-                    "score": "",
-                    "degree": "Marketing et gestion commerciale des entreprises de mode (Bac+4)",
-                    "courses": [],
-                    "summary": "",
-                    "institution": "MOD SPE Paris - Fashion Business School"
-                },
-                {
-                    "id": "f2d3937f-05fa-4219-996f-f451776d637a",
-                    "url": "",
-                    "area": "Spécialisation achats",
-                    "date": {
-                        "end": "1996-08-29T22:00:00.000Z",
-                        "start": "1995-08-31T22:00:00.000Z"
-                    },
-                    "score": "",
-                    "degree": "Licence Management de la fonction commerciale et achat",
-                    "courses": [],
-                    "summary": "",
-                    "institution": "Institut Universitaire Professionnalisé Pierre Mendès France, Grenoble"
-                },
-                {
-                    "institution": "PNDF",
-                    "degree": "BAC C (mention AB)",
-                    "area": "",
-                    "score": "",
-                    "date": {
-                        "start": "1992-08-31T22:00:00.000Z",
-                        "end": "1993-06-29T22:00:00.000Z"
-                    },
-                    "url": "",
-                    "summary": "",
-                    "courses": [],
-                    "id": "fab86a7c-8978-4256-a7c5-6cf1a10aab5d"
-                }
+            "id": "ecd51396-9a65-4530-98e5-2d9103afe9ad"
+          }
+        ],
+        "columns": 1,
+        "visible": true
+      },
+      "projects": {
+        "id": "projects",
+        "name": "Quelques projets",
+        "type": "basic",
+        "items": [
+          {
+            "id": "558d6a88-4605-4190-80c9-6dd1644466eb",
+            "url": "https://reseademomobile.web.app/",
+            "date": {
+              "end": "2021-12-01",
+              "start": "2019-01-01"
+            },
+            "name": "RESEA",
+            "summary": "Progressive Web App\n-> Front développé en Typescript avec Angular : permet de créer un compte utilisateur, choisir les services proposés,  le prestataire, un créneau horaire parmi les plages proposées, renseigner ses infos et obtenir une confirmation de RDV. Le front est personnalisé avec logo et couleurs de l'entreprise. Les clients finaux ont la possibilité d'installer l'application sur leur mobile, grâce au format PWA.\n-> Back en PHP via plugin sous Wordpress et création de endpoints REST API. Création des prestations, personnalisation des messages, des services, des disponibilités. Confirmations envoyées par mail, par sms, et synchronisation avec Google Calendar et google contacts.",
+            "keywords": [
+              "Typescript",
+              "HTML",
+              "CSS",
+              "Angular",
+              "PWA",
+              "GoogleAppScript"
             ],
-            "columns": 4,
-            "visible": true
-        },
-        "interests": {
-            "id": "interests",
-            "name": "Centres d'intérêts",
-            "type": "basic",
-            "items": [
-                {
-                    "name": "Course à pied",
-                    "keywords": [],
-                    "id": "1e864a8a-8f22-43be-b4f4-f3f09913aa0a"
-                },
-                {
-                    "name": "Fit",
-                    "keywords": [],
-                    "id": "892231a8-7e9d-4d68-9bc8-3d4f112b7918"
-                },
-                {
-                    "name": "Piano",
-                    "keywords": [],
-                    "id": "bb574e31-e964-4964-b9f0-c72010221f07"
-                },
-                {
-                    "name": "Couture",
-                    "keywords": [],
-                    "id": "056227a5-0db8-4f66-af67-e1e7841d765d"
-                }
+            "description": "Application de réservation en ligne, téléchargeable en version mobile (progressive web app)"
+          },
+          {
+            "id": "cdcf15a0-f545-4971-8904-0dc679612500",
+            "url": "https://github.com/alihasana/MILOLIB",
+            "date": {
+              "end": "",
+              "start": "2018-01-01"
+            },
+            "name": "MILOLIB",
+            "summary": "Projet présenté lors du séminaire 'Grand Paris Sud nouveau territoire de l’économie numérique' en présence de Mounir Mahjoubi, alors secrétaire d’État auprès du premier ministre chargé du numérique.\nProduct Owner et Développeur Front sur la partie Calendrier\n-> Fronts développés en Javascript avec VueJs : \n1/ Front client permet à l'utilisateur de sélectionner des disponibilités\n2/ Front permet de créer ses disponibilités\n",
+            "keywords": [
+              "VueJS",
+              "NodeJS",
+              "ExpressJS",
+              "MongoDB",
+              "CSS",
+              "SCSS",
+              "Bootstrap"
             ],
-            "columns": null,
-            "visible": true
-        },
-        "languages": {
-            "id": "languages",
-            "name": "Langues",
-            "type": "basic",
-            "items": [
-                {
-                    "id": "a071b581-5d41-48c1-b7f6-2de133102a95",
-                    "name": "Anglais",
-                    "level": "Courant",
-                    "levelNum": 0
-                },
-                {
-                    "id": "128982e6-9db0-4207-bef8-08aa08f7d9d7",
-                    "name": "Espagnol",
-                    "level": "Scolaire",
-                    "levelNum": 0
-                }
-            ],
-            "columns": 2,
-            "visible": true
-        },
-        "volunteer": {
-            "id": "volunteer",
-            "name": "Bénévolat",
-            "type": "basic",
-            "items": [
-                {
-                    "organization": "nop",
-                    "position": "Développeur Web",
-                    "date": {
-                        "start": "2020-01-01",
-                        "end": "2020-12-31"
-                    },
-                    "url": "",
-                    "summary": "Création et mise à disposition d'une plateforme de vente en ligne 'lieusaint-fêtes' pour les commerçants restaurateurs de ma ville pendant les fêtes, en 2020 ",
-                    "id": "41840b04-de48-4dfc-8f2c-f0e312e7a779"
-                },
-                {
-                    "organization": "CitésLab",
-                    "position": "Formatrice",
-                    "date": {
-                        "start": "2020-01-01",
-                        "end": "2020-01-31"
-                    },
-                    "url": "",
-                    "summary": "Animation d'un atelier de formation Wordpress à l'association CitésLab, Espace pour Entreprendre à Choisy le Roi, en 2019",
-                    "id": "360ea58f-7397-4b5b-8caa-09132280d08d"
-                },
-                {
-                    "organization": "Senartech",
-                    "position": "Membre actif",
-                    "date": {
-                        "start": "2018-01-01",
-                        "end": "2019-01-01"
-                    },
-                    "url": "",
-                    "summary": "Soutien pour la promotion du numérique sur le territoire de Grand Paris Sud, pour l'association SenarTech, en 2018/2019",
-                    "id": "92f44425-25e3-4013-9396-fb4207edb5f3"
-                }
-            ],
-            "columns": 2,
-            "visible": false
-        },
-        "references": {
-            "id": "references",
-            "name": "References",
-            "type": "basic",
-            "items": [],
-            "columns": 2,
-            "visible": false
-        },
-        "publications": {
-            "id": "publications",
-            "name": "Publications",
-            "type": "basic",
-            "items": [],
-            "columns": 2,
-            "visible": false
-        },
-        "certifications": {
-            "id": "certifications",
-            "name": "Formations courtes & Certifications ",
-            "type": "basic",
-            "items": [
-                {
-                    "id": "",
-                    "url": "",
-                    "date": {
-                        "end": "Aujourd'hui",
-                        "start": "2019-06-29T22:00:00.000Z"
-                    },
-                    "name": "Formations en ligne : Angular, 100days Of Code, Typescript, Angular progessive Web Apps, Javascript, Node JS ",
-                    "issuer": "Udemy.com",
-                    "summary": ""
-                },
-                {
-                    "name": "Certification Google Atelier Numérique ",
-                    "issuer": "Google",
-                    "date": {
-                        "end": "",
-                        "start": "2019-12-31T23:00:00.000Z"
-                    },
-                    "url": "",
-                    "summary": "",
-                    "id": "fba137e3-7868-45e2-b307-89ac8f9e65dd"
-                },
-                {
-                    "id": "abd899cc-f04e-454a-9d74-c52e96f71a12",
-                    "url": "",
-                    "date": {
-                        "end": "",
-                        "start": "2016-12-31T23:00:00.000Z"
-                    },
-                    "name": "Professional Scrum Product Owner training ",
-                    "issuer": "Scrum.org",
-                    "summary": ""
-                },
-                {
-                    "name": "Conseil en évolution professionnelle ",
-                    "issuer": "APEC",
-                    "date": {
-                        "end": "",
-                        "start": "2016-12-31T23:00:00.000Z"
-                    },
-                    "url": "",
-                    "summary": "",
-                    "id": "747619a2-8d02-41c7-be0f-b0c9febb76de"
-                }
-                
-            ],
-            "columns": 1,
-            "visible": true
-        }
+            "description": "Projet d’équipe pour la Maison de l’emploi et de la Formation de Sénart : réalisation d’un prototype de prise de rendez-vous et gestion d’agenda en ligne pour les conseillers de la MDEF afin d'ouvrir leurs RDV aux jeunes en demande de suivi"
+          },
+          {
+            "id": "9b9fa5c3-a1de-4dcb-a9cb-8c371cb7aba0",
+            "url": "https://github.com/SandrinePradier/distime",
+            "date": {
+              "end": "",
+              "start": "2018-06-01"
+            },
+            "name": "DISTIME",
+            "summary": "-> Front développé en Javascript avec VueJs : pour lancer les batchs de recueil de données\n-> Back en Javascript  sous NodeJS : lancement et traitement des requetes aux différentes API et enregistrement des datas en base de donnée\n-> BDD : MongoDB\nLes différentes API source informations utilisées pour le projet sont :\n*https://api.gouv.fr/api/api-geo.html (liste des communes Ile de France)\n*https://www.data.gouv.fr/fr/datasets/arrondissements-1/ (détails  des arrondissements de Paris)\n*https://www.navitia.io (temps de transports)\n*https://api.mapbox.com/directions/v5/mapbox/driving (distance et temps de transports voiture)",
+            "keywords": ["NodeJS", "ExpressJS", "VueJS", "MongoDB"],
+            "description": "Automatisation de la création d'une base de donnée : construction d' une routine qui interroge plusieurs API et récupération  des informations pour compléter la base de données de manière automatique"
+          },
+          {
+            "id": "686e02d5-d748-429f-b503-3617f35537b6",
+            "url": "https://drive.google.com/drive/folders/1ABpD6BcSkX6VA4QbFGattGCrwVfuXo8T?usp=share_link",
+            "date": {
+              "end": "",
+              "start": "2020-01-01"
+            },
+            "name": "ESSENTIELLES BEAUTE",
+            "summary": "Développé sous Wordpress, avec Woocommerce et Dokan pour la partie dashboard entreprise.\nModule de géolocalisation pour trouver une boutique autour de soi",
+            "keywords": ["Wordpress", "PHP", "HTML", "CSS"],
+            "description": "Création d'une plateforme de vente en ligne pour que les commerces 'non-essentiels' du secteur de la beauté puisse vendre des bons cadeaux pendant le confinement"
+          },
+          {
+            "id": "f17fd9d3-6bf0-4320-8077-14cdb3930d11",
+            "url": "https://github.com/SandrinePradier/BookingAppFront",
+            "date": {
+              "end": "",
+              "start": "2018-01-01"
+            },
+            "name": "BookingApp",
+            "summary": "-> Front utilisateur final et front entreprise développé en Javascript avec VueJs  et Vuetify\n-> Backend en Javascript, sous NodeJs\n-> Base de données non relationnelle MongoDB",
+            "keywords": ["NodeJS", "ExpressJS", "MongoDB", "VueJS", "Vuetify"],
+            "description": "Projet présenté dans le cadre du titre professionnel “Développeur Logiciel” niveau III est une application de prise de rendez-vous en ligne"
+          },
+          {
+            "id": "59581f61-d046-482e-8aae-111a452293d2",
+            "url": "https://automobile-majordome.fr/",
+            "date": {
+              "end": "",
+              "start": "2022-01-01"
+            },
+            "name": "Automobile Majordome",
+            "summary": "Site classique Wordpress + mise en place de blog\nCréation de templates annonces avec champs de données spécifiques avec ACF et API rest Wordpress, et Javascript",
+            "keywords": ["Wordpress", "Javascript", "PHP"],
+            "description": "Création d'un site Web qui permet à l'entreprise de présenter ses services et mettre en avant des annonces de vente ou recherche de véhicules"
+          },
+          {
+            "id": "d66f5025-5853-429e-b69c-533a496e66e1",
+            "url": "https://kallia-immobilier.fr/",
+            "date": {
+              "end": "",
+              "start": "2021-01-01"
+            },
+            "name": "Kallia immobilier",
+            "summary": "Site classique Wordpress + mise en place de blog\nCréation de templates localisation avec champs de données spécifiques ACF.",
+            "keywords": ["Wordpress", "SEO"],
+            "description": "Création d'un site web vitrine + pages de locations /FAQ pour booster le SEO"
+          }
+        ],
+        "columns": 2,
+        "visible": true
+      },
+      "education": {
+        "id": "education",
+        "name": "Formations",
+        "type": "basic",
+        "items": [
+          {
+            "id": "eb9e8d7a-98f6-430a-997b-1b7348726cde",
+            "url": "simplon.co",
+            "area": "Formation Développeur Logiciel Web",
+            "date": {
+              "end": "2018-06-29T22:00:00.000Z",
+              "start": "2017-08-31T22:00:00.000Z"
+            },
+            "score": "",
+            "degree": "Titre professionnel Développeur logiciel (niveau III)",
+            "courses": [],
+            "summary": "",
+            "institution": "Simplon Sénart"
+          },
+          {
+            "id": "12da556e-ba2c-4788-bc21-735fdada7240",
+            "url": "modspeparis.com",
+            "area": "",
+            "date": {
+              "end": "1998-08-29T22:00:00.000Z",
+              "start": "1995-12-31T23:00:00.000Z"
+            },
+            "score": "",
+            "degree": "Marketing et gestion commerciale des entreprises de mode (Bac+4)",
+            "courses": [],
+            "summary": "",
+            "institution": "MOD SPE Paris - Fashion Business School"
+          },
+          {
+            "id": "f2d3937f-05fa-4219-996f-f451776d637a",
+            "url": "",
+            "area": "Spécialisation achats",
+            "date": {
+              "end": "1996-08-29T22:00:00.000Z",
+              "start": "1995-08-31T22:00:00.000Z"
+            },
+            "score": "",
+            "degree": "Licence Management de la fonction commerciale et achat",
+            "courses": [],
+            "summary": "",
+            "institution": "Institut Universitaire Professionnalisé Pierre Mendès France, Grenoble"
+          },
+          {
+            "institution": "PNDF",
+            "degree": "BAC C (mention AB)",
+            "area": "",
+            "score": "",
+            "date": {
+              "start": "1992-08-31T22:00:00.000Z",
+              "end": "1993-06-29T22:00:00.000Z"
+            },
+            "url": "",
+            "summary": "",
+            "courses": [],
+            "id": "fab86a7c-8978-4256-a7c5-6cf1a10aab5d"
+          }
+        ],
+        "columns": 4,
+        "visible": true
+      },
+      "interests": {
+        "id": "interests",
+        "name": "Centres d'intérêts",
+        "type": "basic",
+        "items": [
+          {
+            "name": "Course à pied",
+            "keywords": [],
+            "id": "1e864a8a-8f22-43be-b4f4-f3f09913aa0a"
+          },
+          {
+            "name": "Fit",
+            "keywords": [],
+            "id": "892231a8-7e9d-4d68-9bc8-3d4f112b7918"
+          },
+          {
+            "name": "Piano",
+            "keywords": [],
+            "id": "bb574e31-e964-4964-b9f0-c72010221f07"
+          },
+          {
+            "name": "Couture",
+            "keywords": [],
+            "id": "056227a5-0db8-4f66-af67-e1e7841d765d"
+          }
+        ],
+        "columns": null,
+        "visible": true
+      },
+      "languages": {
+        "id": "languages",
+        "name": "Langues",
+        "type": "basic",
+        "items": [
+          {
+            "id": "a071b581-5d41-48c1-b7f6-2de133102a95",
+            "name": "Anglais",
+            "level": "Courant",
+            "levelNum": 0
+          },
+          {
+            "id": "128982e6-9db0-4207-bef8-08aa08f7d9d7",
+            "name": "Espagnol",
+            "level": "Scolaire",
+            "levelNum": 0
+          }
+        ],
+        "columns": 2,
+        "visible": true
+      },
+      "volunteer": {
+        "id": "volunteer",
+        "name": "Bénévolat",
+        "type": "basic",
+        "items": [
+          {
+            "organization": "nop",
+            "position": "Développeur Web",
+            "date": {
+              "start": "2020-01-01",
+              "end": "2020-12-31"
+            },
+            "url": "",
+            "summary": "Création et mise à disposition d'une plateforme de vente en ligne 'lieusaint-fêtes' pour les commerçants restaurateurs de ma ville pendant les fêtes, en 2020 ",
+            "id": "41840b04-de48-4dfc-8f2c-f0e312e7a779"
+          },
+          {
+            "organization": "CitésLab",
+            "position": "Formatrice",
+            "date": {
+              "start": "2020-01-01",
+              "end": "2020-01-31"
+            },
+            "url": "",
+            "summary": "Animation d'un atelier de formation Wordpress à l'association CitésLab, Espace pour Entreprendre à Choisy le Roi, en 2019",
+            "id": "360ea58f-7397-4b5b-8caa-09132280d08d"
+          },
+          {
+            "organization": "Senartech",
+            "position": "Membre actif",
+            "date": {
+              "start": "2018-01-01",
+              "end": "2019-01-01"
+            },
+            "url": "",
+            "summary": "Soutien pour la promotion du numérique sur le territoire de Grand Paris Sud, pour l'association SenarTech, en 2018/2019",
+            "id": "92f44425-25e3-4013-9396-fb4207edb5f3"
+          }
+        ],
+        "columns": 2,
+        "visible": false
+      },
+      "references": {
+        "id": "references",
+        "name": "References",
+        "type": "basic",
+        "items": [],
+        "columns": 2,
+        "visible": false
+      },
+      "publications": {
+        "id": "publications",
+        "name": "Publications",
+        "type": "basic",
+        "items": [],
+        "columns": 2,
+        "visible": false
+      },
+      "certifications": {
+        "id": "certifications",
+        "name": "Formations courtes & Certifications ",
+        "type": "basic",
+        "items": [
+          {
+            "id": "",
+            "url": "",
+            "date": {
+              "end": "Aujourd'hui",
+              "start": "2019-06-29T22:00:00.000Z"
+            },
+            "name": "Formations en ligne : Angular, 100days Of Code, Typescript, Angular progessive Web Apps, Javascript, Node JS ",
+            "issuer": "Udemy.com",
+            "summary": ""
+          },
+          {
+            "name": "Certification Google Atelier Numérique ",
+            "issuer": "Google",
+            "date": {
+              "end": "",
+              "start": "2019-12-31T23:00:00.000Z"
+            },
+            "url": "",
+            "summary": "",
+            "id": "fba137e3-7868-45e2-b307-89ac8f9e65dd"
+          },
+          {
+            "id": "abd899cc-f04e-454a-9d74-c52e96f71a12",
+            "url": "",
+            "date": {
+              "end": "",
+              "start": "2016-12-31T23:00:00.000Z"
+            },
+            "name": "Professional Scrum Product Owner training ",
+            "issuer": "Scrum.org",
+            "summary": ""
+          },
+          {
+            "name": "Conseil en évolution professionnelle ",
+            "issuer": "APEC",
+            "date": {
+              "end": "",
+              "start": "2016-12-31T23:00:00.000Z"
+            },
+            "url": "",
+            "summary": "",
+            "id": "747619a2-8d02-41c7-be0f-b0c9febb76de"
+          }
+        ],
+        "columns": 1,
+        "visible": true
+      }
     },
     "metadata": {
-        "css": {
-            "value": "/* Enter custom CSS here */\n\nheader {\n    margin-bottom:20px;\n}\n#Kakuna_work div{\n    text-align: left;\n}\ndiv#0acc612f-89bd-4213-bba4-b40e75b6f9f9{\n    text-align:left;\n}\nh3 {\nmargin-top:20px;\nbackground-color: yellow;\n}\n\nspan.opacity-75{\n    font-weight: bold;\n    background-color: bisque;\n    width: fit-content;\n\n}",
-            "visible": true
+      "css": {
+        "value": "/* Enter custom CSS here */\n\nheader {\n    margin-bottom:20px;\n}\n#Kakuna_work div{\n    text-align: left;\n}\ndiv#0acc612f-89bd-4213-bba4-b40e75b6f9f9{\n    text-align:left;\n}\nh3 {\nmargin-top:20px;\nbackground-color: yellow;\n}\n\nspan.opacity-75{\n    font-weight: bold;\n    background-color: bisque;\n    width: fit-content;\n\n}",
+        "visible": true
+      },
+      "date": {
+        "format": "YYYY"
+      },
+      "page": {
+        "format": "A4"
+      },
+      "theme": {
+        "text": "#000000",
+        "primary": "#222222",
+        "background": "#ffffff"
+      },
+      "layout": [
+        [
+          [
+            "skills",
+            "work",
+            "projects",
+            "education",
+            "volunteer",
+            "references"
+          ],
+          ["interests", "languages", "awards", "certifications", "publications"]
+        ]
+      ],
+      "locale": "fr",
+      "template": "kakuna",
+      "typography": {
+        "size": {
+          "body": 14,
+          "heading": 28
         },
-        "date": {
-            "format": "YYYY"
-        },
-        "page": {
-            "format": "A4"
-        },
-        "theme": {
-            "text": "#000000",
-            "primary": "#222222",
-            "background": "#ffffff"
-        },
-        "layout": [
-            [
-                [
-                    "skills",
-                    "work",
-                    "projects",
-                    "education",
-                    "volunteer",
-                    "references"
-                ],
-                [
-                    "interests",
-                    "languages",
-                    "awards",
-                    "certifications",
-                    "publications"
-                ]
-            ]
-        ],
-        "locale": "fr",
-        "template": "kakuna",
-        "typography": {
-            "size": {
-                "body": 14,
-                "heading": 28
-            },
-            "family": {
-                "body": "Open Sans",
-                "heading": "Open Sans"
-            }
+        "family": {
+          "body": "Open Sans",
+          "heading": "Open Sans"
         }
+      }
     },
     "public": true
-}]
+  }
+]
